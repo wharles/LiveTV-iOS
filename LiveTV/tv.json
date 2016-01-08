@@ -1,0 +1,417 @@
+ [
+  {
+  "name": "CCTV-1高清",
+  "pc": "http://tv.nun.edu.cn/player.html?channel=cctv1hd",
+  "mobile": "http://tv.nun.edu.cn/hls/cctv1hd.m3u8"
+  },
+  {
+  "name": "CCTV-3高清",
+  "pc": "http://tv.nun.edu.cn/player.html?channel=cctv3hd",
+  "mobile": "http://tv.nun.edu.cn/hls/cctv3hd.m3u8"
+  },
+  {
+  "name": "CCTV-5高清",
+  "pc": "http://tv.nun.edu.cn/player.html?channel=cctv5hd",
+  "mobile": "http://tv.nun.edu.cn/hls/cctv5hd.m3u8"
+  },
+  {
+  "name": "CCTV-5+高清",
+  "pc": "http://tv.nun.edu.cn/player.html?channel=cctv5phd",
+  "mobile": "http://tv.nun.edu.cn/hls/cctv5phd.m3u8"
+  },
+  {
+  "name": "CCTV-6高清",
+  "pc": "http://tv.nun.edu.cn/player.html?channel=cctv6hd",
+  "mobile": "http://tv.nun.edu.cn/hls/cctv6hd.m3u8"
+  },
+  {
+  "name": "CCTV-8高清",
+  "pc": "http://tv.nun.edu.cn/player.html?channel=cctv8hd",
+  "mobile": "http://tv.nun.edu.cn/hls/cctv8hd.m3u8"
+  },
+  {
+  "name": "CHC高清电影",
+  "pc": "http://tv.nun.edu.cn/player.html?channel=chchd",
+  "mobile": "http://tv.nun.edu.cn/hls/chchd.m3u8"
+  },
+  {
+  "name": "北京卫视高清",
+  "pc": "http://tv.nun.edu.cn/player.html?channel=btv1hd",
+  "mobile": "http://tv.nun.edu.cn/hls/btv1hd.m3u8"
+  },
+  {
+  "name": "北京文艺高清",
+  "pc": "http://tv.nun.edu.cn/player.html?channel=btv2hd",
+  "mobile": "http://tv.nun.edu.cn/hls/btv2hd.m3u8"
+  },
+  {
+  "name": "北京体育高清",
+  "pc": "http://tv.nun.edu.cn/player.html?channel=btv6hd",
+  "mobile": "http://tv.nun.edu.cn/hls/btv6hd.m3u8"
+  },
+  {
+  "name": "北京纪实高清",
+  "pc": "http://tv.nun.edu.cn/player.html?channel=btv11hd",
+  "mobile": "http://tv.nun.edu.cn/hls/btv11hd.m3u8"
+  },
+  {
+  "name": "湖南卫视高清",
+  "pc": "http://tv.nun.edu.cn/player.html?channel=hunanhd",
+  "mobile": "http://tv.nun.edu.cn/hls/hunanhd.m3u8"
+  },
+  {
+  "name": "浙江卫视高清",
+  "pc": "http://tv.nun.edu.cn/player.html?channel=zjhd",
+  "mobile": "http://tv.nun.edu.cn/hls/zjhd.m3u8"
+  },
+  {
+  "name": "江苏卫视高清",
+  "pc": "http://tv.nun.edu.cn/player.html?channel=jshd",
+  "mobile": "http://tv.nun.edu.cn/hls/jshd.m3u8"
+  },
+  {
+  "name": "东方卫视高清",
+  "pc": "http://tv.nun.edu.cn/player.html?channel=dfhd",
+  "mobile": "http://tv.nun.edu.cn/hls/dfhd.m3u8"
+  },
+  {
+  "name": "安徽卫视高清",
+  "pc": "http://tv.nun.edu.cn/player.html?channel=ahhd",
+  "mobile": "http://tv.nun.edu.cn/hls/ahhd.m3u8"
+  },
+  {
+  "name": "黑龙江卫视高清",
+  "pc": "http://tv.nun.edu.cn/player.html?channel=hljhd",
+  "mobile": "http://tv.nun.edu.cn/hls/hljhd.m3u8"
+  },
+  {
+  "name": "辽宁卫视高清",
+  "pc": "http://tv.nun.edu.cn/player.html?channel=lnhd",
+  "mobile": "http://tv.nun.edu.cn/hls/lnhd.m3u8"
+  },
+  {
+  "name": "深圳卫视高清",
+  "pc": "http://tv.nun.edu.cn/player.html?channel=szhd",
+  "mobile": "http://tv.nun.edu.cn/hls/szhd.m3u8"
+  },
+  {
+  "name": "广东卫视高清",
+  "pc": "http://tv.nun.edu.cn/player.html?channel=gdhd",
+  "mobile": "http://tv.nun.edu.cn/hls/gdhd.m3u8"
+  },
+  {
+  "name": "天津卫视高清",
+  "pc": "http://tv.nun.edu.cn/player.html?channel=tjhd",
+  "mobile": "http://tv.nun.edu.cn/hls/tjhd.m3u8"
+  },
+  {
+  "name": "湖北卫视高清",
+  "pc": "http://tv.nun.edu.cn/player.html?channel=hbhd",
+  "mobile": "http://tv.nun.edu.cn/hls/hbhd.m3u8"
+  },
+  {
+  "name": "山东卫视高清",
+  "pc": "http://tv.nun.edu.cn/player.html?channel=sdhd",
+  "mobile": "http://tv.nun.edu.cn/hls/sdhd.m3u8"
+  },
+  {
+  "name": "重庆卫视高清",
+  "pc": "http://tv.nun.edu.cn/player.html?channel=cqhd",
+  "mobile": "http://tv.nun.edu.cn/hls/cqhd.m3u8"
+  },
+  {
+  "name": "CCTV-1综合",
+  "pc": "http://tv.nun.edu.cn/player.html?channel=cctv1",
+  "mobile": "http://tv.nun.edu.cn/hls/cctv1.m3u8"
+  },
+  {
+  "name": "CCTV-2财经",
+  "pc": "http://tv.nun.edu.cn/player.html?channel=cctv2",
+  "mobile": "http://tv.nun.edu.cn/hls/cctv2.m3u8"
+  },
+  {
+  "name": "CCTV-3综艺",
+  "pc": "http://tv.nun.edu.cn/player.html?channel=cctv3",
+  "mobile": "http://tv.nun.edu.cn/hls/cctv3.m3u8"
+  },
+  {
+  "name": "CCTV-4中文国际",
+  "pc": "http://tv.nun.edu.cn/player.html?channel=cctv4",
+  "mobile": "http://tv.nun.edu.cn/hls/cctv4.m3u8"
+  },
+  {
+  "name": "CCTV-5体育",
+  "pc": "http://tv.nun.edu.cn/player.html?channel=cctv5",
+  "mobile": "http://tv.nun.edu.cn/hls/cctv5.m3u8"
+  },
+  {
+  "name": "CCTV-6电影",
+  "pc": "http://tv.nun.edu.cn/player.html?channel=cctv6",
+  "mobile": "http://tv.nun.edu.cn/hls/cctv6.m3u8"
+  },
+  {
+  "name": "CCTV-7军事农业",
+  "pc": "http://tv.nun.edu.cn/player.html?channel=cctv7",
+  "mobile": "http://tv.nun.edu.cn/hls/cctv7.m3u8"
+  },
+  {
+  "name": "CCTV-8电视剧",
+  "pc": "http://tv.nun.edu.cn/player.html?channel=cctv8",
+  "mobile": "http://tv.nun.edu.cn/hls/cctv8.m3u8"
+  },
+  {
+  "name": "CCTV-9纪录",
+  "pc": "http://tv.nun.edu.cn/player.html?channel=cctv9",
+  "mobile": "http://tv.nun.edu.cn/hls/cctv9.m3u8"
+  },
+  {
+  "name": "CCTV-10科教",
+  "pc": "http://tv.nun.edu.cn/player.html?channel=cctv10",
+  "mobile": "http://tv.nun.edu.cn/hls/cctv10.m3u8"
+  },
+  {
+  "name": "CCTV-11戏曲",
+  "pc": "http://tv.nun.edu.cn/player.html?channel=cctv11",
+  "mobile": "http://tv.nun.edu.cn/hls/cctv11.m3u8"
+  },
+  {
+  "name": "CCTV-12社会与法",
+  "pc": "http://tv.nun.edu.cn/player.html?channel=cctv12",
+  "mobile": "http://tv.nun.edu.cn/hls/cctv12.m3u8"
+  },
+  {
+  "name": "CCTV-13新闻",
+  "pc": "http://tv.nun.edu.cn/player.html?channel=cctv13",
+  "mobile": "http://tv.nun.edu.cn/hls/cctv13.m3u8"
+  },
+  {
+  "name": "CCTV-14少儿",
+  "pc": "http://tv.nun.edu.cn/player.html?channel=cctv14",
+  "mobile": "http://tv.nun.edu.cn/hls/cctv14.m3u8"
+  },
+  {
+  "name": "CCTV-15音乐",
+  "pc": "http://tv.nun.edu.cn/player.html?channel=cctv15",
+  "mobile": "http://tv.nun.edu.cn/hls/cctv15.m3u8"
+  },
+  {
+  "name": "CCTV-NEWS",
+  "pc": "http://tv.nun.edu.cn/player.html?channel=cctv16",
+  "mobile": "http://tv.nun.edu.cn/hls/cctv16.m3u8"
+  },
+  {
+  "name": "北京卫视",
+  "pc": "http://tv.nun.edu.cn/player.html?channel=btv1",
+  "mobile": "http://tv.nun.edu.cn/hls/btv1.m3u8"
+  },
+  {
+  "name": "北京文艺",
+  "pc": "http://tv.nun.edu.cn/player.html?channel=btv2",
+  "mobile": "http://tv.nun.edu.cn/hls/btv2.m3u8"
+  },
+  {
+  "name": "北京科教",
+  "pc": "http://tv.nun.edu.cn/player.html?channel=btv3",
+  "mobile": "http://tv.nun.edu.cn/hls/btv3.m3u8"
+  },
+  {
+  "name": "北京影视",
+  "pc": "http://tv.nun.edu.cn/player.html?channel=btv4",
+  "mobile": "http://tv.nun.edu.cn/hls/btv4.m3u8"
+  },
+  {
+  "name": "北京财经",
+  "pc": "http://tv.nun.edu.cn/player.html?channel=btv5",
+  "mobile": "http://tv.nun.edu.cn/hls/btv5.m3u8"
+  },
+  {
+  "name": "北京体育",
+  "pc": "http://tv.nun.edu.cn/player.html?channel=btv6",
+  "mobile": "http://tv.nun.edu.cn/hls/btv6.m3u8"
+  },
+  {
+  "name": "北京生活",
+  "pc": "http://tv.nun.edu.cn/player.html?channel=btv7",
+  "mobile": "http://tv.nun.edu.cn/hls/btv7.m3u8"
+  },
+  {
+  "name": "北京青年",
+  "pc": "http://tv.nun.edu.cn/player.html?channel=btv8",
+  "mobile": "http://tv.nun.edu.cn/hls/btv8.m3u8"
+  },
+  {
+  "name": "北京新闻",
+  "pc": "http://tv.nun.edu.cn/player.html?channel=btv9",
+  "mobile": "http://tv.nun.edu.cn/hls/btv9.m3u8"
+  },
+  {
+  "name": "北京卡酷少儿",
+  "pc": "http://tv.nun.edu.cn/player.html?channel=btv10",
+  "mobile": "http://tv.nun.edu.cn/hls/btv10.m3u8"
+  },
+  {
+  "name": "深圳卫视",
+  "pc": "http://tv.nun.edu.cn/player.html?channel=sztv",
+  "mobile": "http://tv.nun.edu.cn/hls/sztv.m3u8"
+  },
+  {
+  "name": "安徽卫视",
+  "pc": "http://tv.nun.edu.cn/player.html?channel=ahtv",
+  "mobile": "http://tv.nun.edu.cn/hls/ahtv.m3u8"
+  },
+  {
+  "name": "河南卫视",
+  "pc": "http://tv.nun.edu.cn/player.html?channel=hntv",
+  "mobile": "http://tv.nun.edu.cn/hls/hntv.m3u8"
+  },
+  {
+  "name": "陕西卫视",
+  "pc": "http://tv.nun.edu.cn/player.html?channel=sxtv",
+  "mobile": "http://tv.nun.edu.cn/hls/sxtv.m3u8"
+  },
+  {
+  "name": "吉林卫视",
+  "pc": "http://tv.nun.edu.cn/player.html?channel=jltv",
+  "mobile": "http://tv.nun.edu.cn/hls/jltv.m3u8"
+  },
+  {
+  "name": "广东卫视",
+  "pc": "http://tv.nun.edu.cn/player.html?channel=gdtv",
+  "mobile": "http://tv.nun.edu.cn/hls/gdtv.m3u8"
+  },
+  {
+  "name": "山东卫视",
+  "pc": "http://tv.nun.edu.cn/player.html?channel=sdtv",
+  "mobile": "http://tv.nun.edu.cn/hls/sdtv.m3u8"
+  },
+  {
+  "name": "湖北卫视",
+  "pc": "http://tv.nun.edu.cn/player.html?channel=hbtv",
+  "mobile": "http://tv.nun.edu.cn/hls/hbtv.m3u8"
+  },
+  {
+  "name": "广西卫视",
+  "pc": "http://tv.nun.edu.cn/player.html?channel=gxtv",
+  "mobile": "http://tv.nun.edu.cn/hls/gxtv.m3u8"
+  },
+  {
+  "name": "河北卫视",
+  "pc": "http://tv.nun.edu.cn/player.html?channel=hebtv",
+  "mobile": "http://tv.nun.edu.cn/hls/hebtv.m3u8"
+  },
+  {
+  "name": "西藏卫视",
+  "pc": "http://tv.nun.edu.cn/player.html?channel=xztv",
+  "mobile": "http://tv.nun.edu.cn/hls/xztv.m3u8"
+  },
+  {
+  "name": "内蒙古卫视",
+  "pc": "http://tv.nun.edu.cn/player.html?channel=nmtv",
+  "mobile": "http://tv.nun.edu.cn/hls/nmtv.m3u8"
+  },
+  {
+  "name": "青海卫视",
+  "pc": "http://tv.nun.edu.cn/player.html?channel=qhtv",
+  "mobile": "http://tv.nun.edu.cn/hls/qhtv.m3u8"
+  },
+  {
+  "name": "四川卫视",
+  "pc": "http://tv.nun.edu.cn/player.html?channel=sctv",
+  "mobile": "http://tv.nun.edu.cn/hls/sctv.m3u8"
+  },
+  {
+  "name": "江苏卫视",
+  "pc": "http://tv.nun.edu.cn/player.html?channel=jstv",
+  "mobile": "http://tv.nun.edu.cn/hls/jstv.m3u8"
+  },
+  {
+  "name": "天津卫视",
+  "pc": "http://tv.nun.edu.cn/player.html?channel=tjtv",
+  "mobile": "http://tv.nun.edu.cn/hls/tjtv.m3u8"
+  },
+  {
+  "name": "山西卫视",
+  "pc": "http://tv.nun.edu.cn/player.html?channel=sxrtv",
+  "mobile": "http://tv.nun.edu.cn/hls/sxrtv.m3u8"
+  },
+  {
+  "name": "辽宁卫视",
+  "pc": "http://tv.nun.edu.cn/player.html?channel=lntv",
+  "mobile": "http://tv.nun.edu.cn/hls/lntv.m3u8"
+  },
+  {
+  "name": "厦门卫视",
+  "pc": "http://tv.nun.edu.cn/player.html?channel=xmtv",
+  "mobile": "http://tv.nun.edu.cn/hls/xmtv.m3u8"
+  },
+  {
+  "name": "新疆卫视",
+  "pc": "http://tv.nun.edu.cn/player.html?channel=xjtv",
+  "mobile": "http://tv.nun.edu.cn/hls/xjtv.m3u8"
+  },
+  {
+  "name": "东方卫视",
+  "pc": "http://tv.nun.edu.cn/player.html?channel=dftv",
+  "mobile": "http://tv.nun.edu.cn/hls/dftv.m3u8"
+  },
+  {
+  "name": "黑龙江卫视",
+  "pc": "http://tv.nun.edu.cn/player.html?channel=hljtv",
+  "mobile": "http://tv.nun.edu.cn/hls/hljtv.m3u8"
+  },
+  {
+  "name": "湖南卫视",
+  "pc": "http://tv.nun.edu.cn/player.html?channel=hunantv",
+  "mobile": "http://tv.nun.edu.cn/hls/hunantv.m3u8"
+  },
+  {
+  "name": "云南卫视",
+  "pc": "http://tv.nun.edu.cn/player.html?channel=yntv",
+  "mobile": "http://tv.nun.edu.cn/hls/yntv.m3u8"
+  },
+  {
+  "name": "江西卫视",
+  "pc": "http://tv.nun.edu.cn/player.html?channel=jxtv",
+  "mobile": "http://tv.nun.edu.cn/hls/jxtv.m3u8"
+  },
+  {
+  "name": "福建东南卫视",
+  "pc": "http://tv.nun.edu.cn/player.html?channel=dntv",
+  "mobile": "http://tv.nun.edu.cn/hls/dntv.m3u8"
+  },
+  {
+  "name": "浙江卫视",
+  "pc": "http://tv.nun.edu.cn/player.html?channel=zjtv",
+  "mobile": "http://tv.nun.edu.cn/hls/zjtv.m3u8"
+  },
+  {
+  "name": "贵州卫视",
+  "pc": "http://tv.nun.edu.cn/player.html?channel=gztv",
+  "mobile": "http://tv.nun.edu.cn/hls/gztv.m3u8"
+  },
+  {
+  "name": "宁夏卫视",
+  "pc": "http://tv.nun.edu.cn/player.html?channel=nxtv",
+  "mobile": "http://tv.nun.edu.cn/hls/nxtv.m3u8"
+  },
+  {
+  "name": "甘肃卫视",
+  "pc": "http://tv.nun.edu.cn/player.html?channel=gstv",
+  "mobile": "http://tv.nun.edu.cn/hls/gstv.m3u8"
+  },
+  {
+  "name": "重庆卫视",
+  "pc": "http://tv.nun.edu.cn/player.html?channel=cqtv",
+  "mobile": "http://tv.nun.edu.cn/hls/cqtv.m3u8"
+  },
+  {
+  "name": "兵团卫视",
+  "pc": "http://tv.nun.edu.cn/player.html?channel=bttv",
+  "mobile": "http://tv.nun.edu.cn/hls/bttv.m3u8"
+  },
+  {
+  "name": "旅游卫视",
+  "pc": "http://tv.nun.edu.cn/player.html?channel=lytv",
+  "mobile": "http://tv.nun.edu.cn/hls/lytv.m3u8"
+  }
+  ]
