@@ -12,8 +12,14 @@
 #import "SearchViewController.h"
 #import "SeriesViewController.h"
 #import "VarietyViewController.h"
+#import "JTHamburgerButton.h"
+#import "MLKMenuPopover.h"
+#import "AboutViewController.h"
 
-@interface TabBarViewController ()
+@interface TabBarViewController () <MLKMenuPopoverDelegate>
+
+@property(nonatomic,strong) MLKMenuPopover *menuPopover;
+@property(nonatomic,strong) NSArray *menuItems;
 
 @end
 
@@ -21,8 +27,21 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.menuItems = [NSArray arrayWithObjects:@"关于", nil];
     // Do any additional setup after loading the view.
     self.navigationItem.backBarButtonItem = [[UIBarButtonItem alloc]initWithTitle:@"" style:UIBarButtonItemStylePlain target:nil action:nil];
+    
+    UIView *customView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 44, 44 * self.menuItems.count)];
+    JTHamburgerButton *jtBtn = [[JTHamburgerButton alloc] initWithFrame:customView.bounds];
+    [[jtBtn rac_signalForControlEvents:UIControlEventTouchUpInside] subscribeNext:^(id x) {
+        // Hide already showing popover
+        [self.menuPopover dismissMenuPopover];
+        self.menuPopover = [[MLKMenuPopover alloc] initWithFrame:CGRectMake(20, 0, 66, 44) menuItems:self.menuItems];
+        self.menuPopover.menuPopoverDelegate = self;
+        [self.menuPopover showInView:self.view];
+    }];
+    [customView addSubview:jtBtn];
+    self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:customView];
     
     TVListViewController *viewController = [[TVListViewController alloc] initWithTitle:@"电视" image:[UIImage imageNamed:@"tv_nor"] selectedImage:[UIImage imageNamed:@"tv"]];
     
@@ -35,6 +54,15 @@
     SearchViewController * searchViewController = [[SearchViewController alloc] initWithTitle:@"发现" image:[UIImage imageNamed:@"search_nor"] selectedImage:[UIImage imageNamed:@"search"]];
     
     self.viewControllers = @[viewController, filmViewController, seriesViewController, varietyViewController, searchViewController];
+}
+
+- (void)menuPopover:(MLKMenuPopover *)menuPopover didSelectMenuItemAtIndex:(NSInteger)selectedIndex
+{
+    [self.menuPopover dismissMenuPopover];
+    if (selectedIndex == 0) {
+        AboutViewController *aboutViewController = [[AboutViewController alloc] init];
+        [self.navigationController pushViewController:aboutViewController animated:YES];
+    }
 }
 
 - (void)didReceiveMemoryWarning {

@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		0A5B52171C32238800B235F4 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A5B52161C32238800B235F4 /* BaseViewController.m */; };
 		0A5B521A1C322F1300B235F4 /* SearchItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A5B52191C322F1300B235F4 /* SearchItem.m */; };
+		0AF9F5B91C4CAED100606F76 /* SearchTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF9F5B81C4CAED100606F76 /* SearchTableViewCell.m */; };
+		0AF9F5C51C4CE0E700606F76 /* JTHamburgerButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF9F5C11C4CE0E700606F76 /* JTHamburgerButton.m */; };
+		0AF9F5C61C4CE0E700606F76 /* MLKMenuPopover.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF9F5C41C4CE0E700606F76 /* MLKMenuPopover.m */; };
 		0AFB406C1C22714800AB2061 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AFB406B1C22714800AB2061 /* main.m */; };
 		0AFB406F1C22714800AB2061 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AFB406E1C22714800AB2061 /* AppDelegate.m */; };
 		0AFB40771C22714800AB2061 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AFB40761C22714800AB2061 /* Assets.xcassets */; };
@@ -60,6 +63,12 @@
 		0A5B52161C32238800B235F4 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
 		0A5B52181C322F1300B235F4 /* SearchItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SearchItem.h; path = Models/SearchItem.h; sourceTree = "<group>"; };
 		0A5B52191C322F1300B235F4 /* SearchItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SearchItem.m; path = Models/SearchItem.m; sourceTree = "<group>"; };
+		0AF9F5B71C4CAED100606F76 /* SearchTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SearchTableViewCell.h; path = ViewControllers/Cells/SearchTableViewCell.h; sourceTree = "<group>"; };
+		0AF9F5B81C4CAED100606F76 /* SearchTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SearchTableViewCell.m; path = ViewControllers/Cells/SearchTableViewCell.m; sourceTree = "<group>"; };
+		0AF9F5C01C4CE0E700606F76 /* JTHamburgerButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTHamburgerButton.h; sourceTree = "<group>"; };
+		0AF9F5C11C4CE0E700606F76 /* JTHamburgerButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTHamburgerButton.m; sourceTree = "<group>"; };
+		0AF9F5C31C4CE0E700606F76 /* MLKMenuPopover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLKMenuPopover.h; sourceTree = "<group>"; };
+		0AF9F5C41C4CE0E700606F76 /* MLKMenuPopover.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLKMenuPopover.m; sourceTree = "<group>"; };
 		0AFB40671C22714800AB2061 /* LiveTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LiveTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AFB406B1C22714800AB2061 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0AFB406D1C22714800AB2061 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -144,6 +153,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0AF9F5BE1C4CE0E700606F76 /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				0AF9F5BF1C4CE0E700606F76 /* JTHamburgerButton */,
+				0AF9F5C21C4CE0E700606F76 /* MenuPopover */,
+			);
+			path = Libs;
+			sourceTree = "<group>";
+		};
+		0AF9F5BF1C4CE0E700606F76 /* JTHamburgerButton */ = {
+			isa = PBXGroup;
+			children = (
+				0AF9F5C01C4CE0E700606F76 /* JTHamburgerButton.h */,
+				0AF9F5C11C4CE0E700606F76 /* JTHamburgerButton.m */,
+			);
+			path = JTHamburgerButton;
+			sourceTree = "<group>";
+		};
+		0AF9F5C21C4CE0E700606F76 /* MenuPopover */ = {
+			isa = PBXGroup;
+			children = (
+				0AF9F5C31C4CE0E700606F76 /* MLKMenuPopover.h */,
+				0AF9F5C41C4CE0E700606F76 /* MLKMenuPopover.m */,
+			);
+			path = MenuPopover;
+			sourceTree = "<group>";
+		};
 		0AFB405E1C22714800AB2061 = {
 			isa = PBXGroup;
 			children = (
@@ -169,6 +205,7 @@
 		0AFB40691C22714800AB2061 /* LiveTV */ = {
 			isa = PBXGroup;
 			children = (
+				0AF9F5BE1C4CE0E700606F76 /* Libs */,
 				0AFB406D1C22714800AB2061 /* AppDelegate.h */,
 				0AFB406E1C22714800AB2061 /* AppDelegate.m */,
 				0AFB40761C22714800AB2061 /* Assets.xcassets */,
@@ -310,6 +347,8 @@
 				7A58E1E01C26992000B6C028 /* Style2TableViewCell.m */,
 				7A58E1DA1C2698D200B6C028 /* ItemCollectionViewCell.h */,
 				7A58E1DB1C2698D200B6C028 /* ItemCollectionViewCell.m */,
+				0AF9F5B71C4CAED100606F76 /* SearchTableViewCell.h */,
+				0AF9F5B81C4CAED100606F76 /* SearchTableViewCell.m */,
 			);
 			name = Cells;
 			sourceTree = "<group>";
@@ -384,7 +423,7 @@
 				TargetAttributes = {
 					0AFB40661C22714800AB2061 = {
 						CreatedOnToolsVersion = 7.2;
-						DevelopmentTeam = YTTFS8XE7Z;
+						DevelopmentTeam = 55NZM43QQ7;
 					};
 					0AFB407F1C22714800AB2061 = {
 						CreatedOnToolsVersion = 7.2;
@@ -513,11 +552,14 @@
 				7AD573BD1C253DA600670943 /* TVPlayerViewController.m in Sources */,
 				0A5B521A1C322F1300B235F4 /* SearchItem.m in Sources */,
 				7A58E1E11C26992000B6C028 /* Style1TableViewCell.m in Sources */,
+				0AF9F5B91C4CAED100606F76 /* SearchTableViewCell.m in Sources */,
 				7AD573C61C253DC600670943 /* NSDate+Helper.m in Sources */,
 				7AD573CF1C253DEA00670943 /* PrimaryViewController.m in Sources */,
 				0AFB406F1C22714800AB2061 /* AppDelegate.m in Sources */,
 				7A58E1D31C26802600B6C028 /* VarietyViewController.m in Sources */,
 				7A58E1D61C268D8000B6C028 /* VideoDetail.m in Sources */,
+				0AF9F5C61C4CE0E700606F76 /* MLKMenuPopover.m in Sources */,
+				0AF9F5C51C4CE0E700606F76 /* JTHamburgerButton.m in Sources */,
 				0AFB406C1C22714800AB2061 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

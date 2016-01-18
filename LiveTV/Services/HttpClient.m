@@ -81,7 +81,7 @@
 }
 
 - (RACSignal *)fetchMediaListFromKey:(NSString *)key pageIndex:(NSInteger)pageIndex {
-    NSString *urlString = SEARCHAPI(key, pageIndex, 1);
+    NSString *urlString = SEARCHAPI(key, pageIndex, 20);
     return [self fetchTempleteWithJsonRootName:@"items" urlString:urlString modelOfClass:[SearchItem class]];
 }
 

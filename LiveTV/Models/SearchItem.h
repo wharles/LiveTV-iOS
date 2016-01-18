@@ -14,6 +14,7 @@
 @property (strong, nonatomic) NSString *albumName;
 @property (strong, nonatomic) NSString *area;
 @property (strong, nonatomic) NSString *highPic;
+@property (strong, nonatomic) NSString *picture12;
 @property (strong, nonatomic) NSString *cateName;
 @property (strong, nonatomic) NSString *updateNotification;
 @property (strong, nonatomic) NSString *tvSource;

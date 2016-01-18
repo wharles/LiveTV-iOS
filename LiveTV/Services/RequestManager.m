@@ -57,7 +57,7 @@
                     return [self updateVideoDetail];
                     break;
                 case RequestTypeSearch:
-                    return [self getSearchResult];
+                    return [self updateSearchResult];
                     break;
                 default:
                     return nil;
@@ -121,13 +121,13 @@
     }
 }
 
-- (RACSignal *)getSearchResult {
+- (RACSignal *)updateSearchResult {
     //防止参数没有传递
     if (self.parameter.count == 2) {
         NSString *key = self.parameter[0];
         NSInteger pageIndex = [self.parameter[1] integerValue];
-        return [[self.client fetchMediaListFromKey:key pageIndex:pageIndex] doNext:^(NSArray *searchResult) {
-            self.searchResult = searchResult;
+        return [[self.client fetchMediaListFromKey:key pageIndex:pageIndex] doNext:^(NSArray *result) {
+            self.searchResult = result;
         }];
     } else {
         return nil;

@@ -21,7 +21,8 @@
              @"cateName": @"second_cate_name",
              @"updateNotification": @"updateNotification",
              @"moderator": @"moderator",
-             @"tvSource": @"tv_source"
+             @"tvSource": @"tv_source",
+             @"picture12" : @"ver_high_pic"
              };
 }
 

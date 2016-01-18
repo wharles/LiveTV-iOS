@@ -19,7 +19,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    self.webView = [[UIWebView alloc]initWithFrame:self.view.bounds];
+    self.webView = [[WKWebView alloc]initWithFrame:self.view.bounds];
     [self.view addSubview:self.webView];
     NSURL* url = [NSURL URLWithString:CONTACTURL];
     NSURLRequest* request = [NSURLRequest requestWithURL:url];
