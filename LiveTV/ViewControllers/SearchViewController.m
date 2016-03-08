@@ -26,6 +26,7 @@
     UIActivityIndicatorView *_lodingView;
     UIView *footView;
     NSString *_searchText;
+    UITextField *_textField;
 }
 
 - (void)viewDidLoad {
@@ -48,11 +49,11 @@
     //搜索框
     CGFloat width = self.view.bounds.size.width;
     UIView *searchView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, width, 36)];
-    UITextField *textField = [[UITextField alloc] initWithFrame:CGRectMake(8, 5, width - 16, 26)];
-    textField.background = [UIImage imageNamed:@"Line"];
-    textField.delegate = self;
-    textField.placeholder = @"搜索内容";
-    [searchView addSubview:textField];
+    _textField = [[UITextField alloc] initWithFrame:CGRectMake(8, 5, width - 16, 26)];
+    _textField.background = [UIImage imageNamed:@"Line"];
+    _textField.delegate = self;
+    _textField.placeholder = @"搜索内容";
+    [searchView addSubview:_textField];
     self.tableView.tableHeaderView = searchView;
     
     [[[RACObserve([RequestManager sharedManager], searchResult) ignore:nil] deliverOn:RACScheduler.mainThreadScheduler] subscribeNext:^(NSArray *result) {
@@ -144,6 +145,13 @@
     v.picture12 = item.picture12;
     detailVC.video = v;
     [self.navigationController pushViewController:detailVC animated:YES];
+}
+
+#pragma mark - 隐藏键盘
+
+- (void)viewWillDisappear:(BOOL)animated {
+    [super viewWillDisappear:animated];
+    [self.view endEditing:YES];
 }
 
 - (void)didReceiveMemoryWarning {
