@@ -11,11 +11,11 @@
 
 ##截图
 
-![image](https://github.com/Cherlie/LiveTV-iOS/tree/master/ScreenCaptures/thumb_IMG_0647.jpg)
-![image](https://github.com/Cherlie/LiveTV-iOS/tree/master/ScreenCaptures/thumb_IMG_0646.jpg)
-![image](https://github.com/Cherlie/LiveTV-iOS/tree/master/ScreenCaptures/thumb_IMG_0645.jpg)
-![image](https://github.com/Cherlie/LiveTV-iOS/tree/master/ScreenCaptures/thumb_IMG_0644.jpg)
-![image](https://github.com/Cherlie/LiveTV-iOS/tree/master/ScreenCaptures/thumb_IMG_0643.jpg)
+![image](https://raw.githubusercontent.com/Cherlie/LiveTV-iOS/master/ScreenCaptures/thumb_IMG_0647.jpg)
+![image](https://raw.githubusercontent.com/Cherlie/LiveTV-iOS/master/ScreenCaptures/thumb_IMG_0646.jpg)
+![image](https://raw.githubusercontent.com/Cherlie/LiveTV-iOS/master/ScreenCaptures/thumb_IMG_0645.jpg)
+![image](https://raw.githubusercontent.com/Cherlie/LiveTV-iOS/master/ScreenCaptures/thumb_IMG_0644.jpg)
+![image](https://raw.githubusercontent.com/Cherlie/LiveTV-iOS/master/ScreenCaptures/thumb_IMG_0643.jpg)
 
 ##实现了哪些功能？
 * 电视直播，电影，电视剧，综艺娱乐，搜索等模块
